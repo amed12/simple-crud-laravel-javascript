@@ -45,6 +45,7 @@
     </div>
    
 </form>
-                <button id="button"  class="btn btn-primary" onclick="getElementById('name').value=Math.floor(Math.random()*10000)">Show random</button>
+                <!-- <button id="button"  class="btn btn-primary" onclick="getElementById('name').value=$product->name">Show random</button> -->
+                <a href="{{ url('/products/' . 3 . '/edit') }}" class="btn btn-primary" onclick="getElementById('name').value=$product->name">Show</a>
 
 @endsection
